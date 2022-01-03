@@ -36,7 +36,7 @@
                     <img src="{{ url('/images/ic_google.svg') }}" class="icon" alt=""> Sign In with Google
                 </a>
             </p>
-            <img src="{{ url() }}" class="people" alt="">
+            <img src="{{ url('/images/people.png') }}" class="people" alt="">
         </div>
     </section>
 

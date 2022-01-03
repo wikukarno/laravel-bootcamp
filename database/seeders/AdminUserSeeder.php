@@ -18,7 +18,7 @@ class AdminUserSeeder extends Seeder
             'name' => 'administrator',
             'email' => 'me@wikukarno.com',
             'email_verified_at' => date('Y-m-d H:i:s', time()),
-            'password' => bcrypt('Wiku12345'),
+            'password' => \bcrypt('password'),
             'is_admin' => true
         ]);
     }
